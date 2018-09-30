@@ -33,5 +33,5 @@ Run `ng build` to build the project. The build artifacts will be stored in the `
 
 ## Screens
 
-· Main view: dashboard reporting statisditcs of last web  scraping.
+· Main view: dashboard reporting stadistics of last web  scraping.
 [![m](images/m3.jpg)](images/m3_original.png)
