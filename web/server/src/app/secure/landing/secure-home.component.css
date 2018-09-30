@@ -1,0 +1,23 @@
+.navbar-header a { font-size: 22px; font-weight: 700; }
+.navbar-toggle .icon-bar { background-color: #337ab7 !important; }
+.footer { height: 26px; margin-right: 10px;}  /* tamaño del footer */
+i.red { color: #BC0213; }
+.intro-header {
+    padding-top: 50px; /* If you're making other pages, make sure there is 50px of padding to make sure the navbar doesn't overlap content! */
+    padding-bottom: 26px; /* tamaño del footer */
+    text-align: center;
+    color: #0d6aad;
+    /*background: url(../img/intro-bg.jpg) no-repeat center center;*/
+    /*background-size: cover;*/
+}
+.container { margin-top: 20px; margin-right: unset; margin-left: unset; width: 100%; }
+.centered > div {
+    float: none;
+    display: inline-block;
+}
+div.border {
+  border-style: solid;
+  border-color: #00CED1;
+  border-width: 1px;
+  margin-bottom: 20px; 
+}

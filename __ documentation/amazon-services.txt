@@ -1,0 +1,42 @@
+
+— Amazon EC2
+$ aws ec2 get-console-output --instance-id i-01295160de6ab429a
+$ ssh -i apttoyou-ec2-key-pair.pem ec2-user@ec2-52-59-229-109.eu-central-1.compute.amazonaws.com
+$ scp -i apttoyou-ec2-key-pair.pem <<file>> ec2-user@ec2-52-59-229-109.eu-central-1.compute.amazonaws.com:~
+
+$ sudo yum install gcc gcc-c++ python-setuptools python-devel postgresql-devel
+$ sudo easy_install psycopg2
+
+
+— Amazon RDS
+PostgreSQL
+endpoint: apttoyou-postgresql.czqsvjcidxtf.eu-central-1.rds.amazonaws.com
+id: apttoyou-postgres
+user: apttoyou
+pwd: F7e-QhV-Mfm-ybD
+db: apttoyou_db
+port: 5432
+
+$ aws rds describe-db-instances
+
+— Amazon DynamoDB
+id: apttoyou-dynamodb
+primary partition key: idx (number)
+primary sort key: date-reg (string)
+arn:aws:dynamodb:eu-central-1:114430602145:table/apttoyou-dynamodb
+
+— Amazon S3
+id: apttoyou-json-files-bucket
+$ aws s3api list-buckets --query 'Buckets[].Name'
+$ aws s3 ls s3://mybucket --recursive
+
+$ aws s3 cp s3://bucket/file.csv /mydirectory/file.csv
+$ psql -h your_rds.amazonaws.com -U username -d dbname -c '\COPY table FROM ''file.csv'' CSV HEADER'
+
+
+———
+SNIPPETS
+
+— Finding my own canonical user ID
+s3 = boto3.client('s3')
+s3.list_buckets()['Owner']['ID']

@@ -1,0 +1,21 @@
+<section *ngIf="report" class="container">
+  <div class="row centered">
+    <div *ngFor="let s of report.summary" class="col-xs-2">
+      <div class="center-block">
+        <app-knob [val]="s.rows" [max]="total" fgcolor="#39CCCC" bgcolor="#AFEFEF"></app-knob>
+        <div class="knob-label">{{s.realestate}}</div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section *ngIf="report" class="container">
+  <!--<app-chart *ngIf="report" [dataStore]="report"></app-chart>-->
+  <div class="row">
+    <div *ngFor="let counter of report.counters; let j = index" class="col-md-6">
+      <div class="border" style="display: block;">
+        <app-c3-chart *ngIf="report" [id]="j" [yAxis]="report.realestate" [columns]="counter"></app-c3-chart>
+      </div>
+    </div>
+  </div>
+</section>

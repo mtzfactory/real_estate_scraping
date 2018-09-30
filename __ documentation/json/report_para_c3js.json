@@ -1,0 +1,614 @@
+{
+    "summary": [
+        {
+            "rows": 454,
+            "realestate": "solvia"
+        },
+        {
+            "rows": 569,
+            "realestate": "servihabitat"
+        },
+        {
+            "rows": 649,
+            "realestate": "tecnocasa"
+        },
+        {
+            "rows": 1672,
+            "realestate": "total"
+        }
+    ],
+    "period": [
+        "2017-05-31",
+        "2017-06-01",
+        "2017-06-02",
+        "2017-06-03",
+        "2017-06-04",
+        "2017-06-05",
+        "2017-06-06",
+        "2017-06-07",
+        "2017-06-08",
+        "2017-06-09",
+        "2017-06-10",
+        "2017-06-11",
+        "2017-06-12",
+        "2017-06-13",
+        "2017-06-14",
+        "2017-06-15",
+        "2017-06-16",
+        "2017-06-17",
+        "2017-06-18",
+        "2017-06-19"
+    ],
+    "realestate": [
+        "solvia",
+        "servihabitat",
+        "tecnocasa"
+    ],
+    "counters": [
+        {
+            "counter": "totalpaginas",
+            "data": [
+                {
+                    "solvia": 30,
+                    "fecha": "2017-05-31",
+                    "tecnocasa": 45,
+                    "servihabitat": 53
+                },
+                {
+                    "solvia": 29,
+                    "fecha": "2017-06-01",
+                    "tecnocasa": 44,
+                    "servihabitat": 53
+                },
+                {
+                    "solvia": 28,
+                    "fecha": "2017-06-02",
+                    "tecnocasa": 44,
+                    "servihabitat": 53
+                },
+                {
+                    "solvia": 28,
+                    "fecha": "2017-06-03",
+                    "tecnocasa": 44,
+                    "servihabitat": 53
+                },
+                {
+                    "solvia": 28,
+                    "fecha": "2017-06-04",
+                    "tecnocasa": 44,
+                    "servihabitat": 53
+                },
+                {
+                    "solvia": 28,
+                    "fecha": "2017-06-05",
+                    "tecnocasa": 44,
+                    "servihabitat": 53
+                },
+                {
+                    "solvia": 28,
+                    "fecha": "2017-06-06",
+                    "tecnocasa": 44,
+                    "servihabitat": 53
+                },
+                {
+                    "solvia": 28,
+                    "fecha": "2017-06-07",
+                    "tecnocasa": 44,
+                    "servihabitat": 53
+                },
+                {
+                    "fecha": "2017-06-08",
+                    "tecnocasa": 44,
+                    "servihabitat": 53
+                },
+                {
+                    "fecha": "2017-06-09",
+                    "tecnocasa": 44,
+                    "servihabitat": 53
+                },
+                {
+                    "fecha": "2017-06-10",
+                    "tecnocasa": 44,
+                    "servihabitat": 54
+                },
+                {
+                    "fecha": "2017-06-11",
+                    "tecnocasa": 45,
+                    "servihabitat": 54
+                },
+                {
+                    "fecha": "2017-06-12",
+                    "tecnocasa": 45,
+                    "servihabitat": 54
+                },
+                {
+                    "fecha": "2017-06-13",
+                    "tecnocasa": 45,
+                    "servihabitat": 54
+                },
+                {
+                    "fecha": "2017-06-14",
+                    "tecnocasa": 45,
+                    "servihabitat": 53
+                },
+                {
+                    "fecha": "2017-06-15",
+                    "tecnocasa": 45,
+                    "servihabitat": 53
+                },
+                {
+                    "fecha": "2017-06-16",
+                    "tecnocasa": 45,
+                    "servihabitat": 54
+                },
+                {
+                    "fecha": "2017-06-17",
+                    "tecnocasa": 45,
+                    "servihabitat": 54
+                },
+                {
+                    "fecha": "2017-06-18",
+                    "tecnocasa": 45,
+                    "servihabitat": 54
+                },
+                {
+                    "fecha": "2017-06-19",
+                    "tecnocasa": 45,
+                    "servihabitat": 54
+                }
+            ]
+        },
+        {
+            "counter": "totalinmuebles",
+            "data": [
+                {
+                    "solvia": 441,
+                    "fecha": "2017-05-31",
+                    "tecnocasa": 534,
+                    "servihabitat": 522
+                },
+                {
+                    "solvia": 427,
+                    "fecha": "2017-06-01",
+                    "tecnocasa": 524,
+                    "servihabitat": 523
+                },
+                {
+                    "solvia": 420,
+                    "fecha": "2017-06-02",
+                    "tecnocasa": 520,
+                    "servihabitat": 521
+                },
+                {
+                    "solvia": 418,
+                    "fecha": "2017-06-03",
+                    "tecnocasa": 519,
+                    "servihabitat": 528
+                },
+                {
+                    "solvia": 418,
+                    "fecha": "2017-06-04",
+                    "tecnocasa": 521,
+                    "servihabitat": 528
+                },
+                {
+                    "solvia": 418,
+                    "fecha": "2017-06-05",
+                    "tecnocasa": 521,
+                    "servihabitat": 528
+                },
+                {
+                    "solvia": 415,
+                    "fecha": "2017-06-06",
+                    "tecnocasa": 520,
+                    "servihabitat": 529
+                },
+                {
+                    "solvia": 415,
+                    "fecha": "2017-06-07",
+                    "tecnocasa": 524,
+                    "servihabitat": 522
+                },
+                {
+                    "fecha": "2017-06-08",
+                    "tecnocasa": 522,
+                    "servihabitat": 528
+                },
+                {
+                    "fecha": "2017-06-09",
+                    "tecnocasa": 523,
+                    "servihabitat": 527
+                },
+                {
+                    "fecha": "2017-06-10",
+                    "tecnocasa": 528,
+                    "servihabitat": 533
+                },
+                {
+                    "fecha": "2017-06-11",
+                    "tecnocasa": 531,
+                    "servihabitat": 533
+                },
+                {
+                    "fecha": "2017-06-12",
+                    "tecnocasa": 531,
+                    "servihabitat": 533
+                },
+                {
+                    "fecha": "2017-06-13",
+                    "tecnocasa": 531,
+                    "servihabitat": 531
+                },
+                {
+                    "fecha": "2017-06-14",
+                    "tecnocasa": 529,
+                    "servihabitat": 529
+                },
+                {
+                    "fecha": "2017-06-15",
+                    "tecnocasa": 533,
+                    "servihabitat": 526
+                },
+                {
+                    "fecha": "2017-06-16",
+                    "tecnocasa": 535,
+                    "servihabitat": 532
+                },
+                {
+                    "fecha": "2017-06-17",
+                    "tecnocasa": 534,
+                    "servihabitat": 532
+                },
+                {
+                    "fecha": "2017-06-18",
+                    "tecnocasa": 532,
+                    "servihabitat": 532
+                },
+                {
+                    "fecha": "2017-06-19",
+                    "tecnocasa": 532,
+                    "servihabitat": 532
+                }
+            ]
+        },
+        {
+            "counter": "totalinsertados",
+            "data": [
+                {
+                    "solvia": 441,
+                    "fecha": "2017-05-31",
+                    "tecnocasa": 534,
+                    "servihabitat": 522
+                },
+                {
+                    "solvia": 2,
+                    "fecha": "2017-06-01",
+                    "tecnocasa": 1,
+                    "servihabitat": 2
+                },
+                {
+                    "solvia": 6,
+                    "fecha": "2017-06-02",
+                    "tecnocasa": 8,
+                    "servihabitat": 3
+                },
+                {
+                    "solvia": 1,
+                    "fecha": "2017-06-03",
+                    "tecnocasa": 7,
+                    "servihabitat": 10
+                },
+                {
+                    "solvia": 0,
+                    "fecha": "2017-06-04",
+                    "tecnocasa": 5,
+                    "servihabitat": 0
+                },
+                {
+                    "solvia": 0,
+                    "fecha": "2017-06-05",
+                    "tecnocasa": 0,
+                    "servihabitat": 0
+                },
+                {
+                    "solvia": 3,
+                    "fecha": "2017-06-06",
+                    "tecnocasa": 0,
+                    "servihabitat": "null"
+                },
+                {
+                    "solvia": 1,
+                    "fecha": "2017-06-07",
+                    "tecnocasa": 11,
+                    "servihabitat": "null"
+                },
+                {
+                    "fecha": "2017-06-08",
+                    "tecnocasa": 6,
+                    "servihabitat": 9
+                },
+                {
+                    "fecha": "2017-06-09",
+                    "tecnocasa": 5,
+                    "servihabitat": 2
+                },
+                {
+                    "fecha": "2017-06-10",
+                    "tecnocasa": 15,
+                    "servihabitat": 7
+                },
+                {
+                    "fecha": "2017-06-11",
+                    "tecnocasa": 4,
+                    "servihabitat": 0
+                },
+                {
+                    "fecha": "2017-06-12",
+                    "tecnocasa": 0,
+                    "servihabitat": 0
+                },
+                {
+                    "fecha": "2017-06-13",
+                    "tecnocasa": 17,
+                    "servihabitat": 3
+                },
+                {
+                    "fecha": "2017-06-14",
+                    "tecnocasa": 10,
+                    "servihabitat": 2
+                },
+                {
+                    "fecha": "2017-06-15",
+                    "tecnocasa": 6,
+                    "servihabitat": 1
+                },
+                {
+                    "fecha": "2017-06-16",
+                    "tecnocasa": 14,
+                    "servihabitat": 6
+                },
+                {
+                    "fecha": "2017-06-17",
+                    "tecnocasa": 5,
+                    "servihabitat": 0
+                },
+                {
+                    "fecha": "2017-06-18",
+                    "tecnocasa": 1,
+                    "servihabitat": "null"
+                },
+                {
+                    "fecha": "2017-06-19",
+                    "tecnocasa": 0,
+                    "servihabitat": 2
+                }
+            ]
+        },
+        {
+            "counter": "totalbaja",
+            "data": [
+                {
+                    "solvia": 0,
+                    "fecha": "2017-05-31",
+                    "tecnocasa": 0,
+                    "servihabitat": 0
+                },
+                {
+                    "solvia": 0,
+                    "fecha": "2017-06-01",
+                    "tecnocasa": 0,
+                    "servihabitat": 0
+                },
+                {
+                    "solvia": 0,
+                    "fecha": "2017-06-02",
+                    "tecnocasa": 0,
+                    "servihabitat": 0
+                },
+                {
+                    "solvia": 3,
+                    "fecha": "2017-06-03",
+                    "tecnocasa": 0,
+                    "servihabitat": 1
+                },
+                {
+                    "solvia": 0,
+                    "fecha": "2017-06-04",
+                    "tecnocasa": 0,
+                    "servihabitat": 0
+                },
+                {
+                    "solvia": 0,
+                    "fecha": "2017-06-05",
+                    "tecnocasa": 0,
+                    "servihabitat": 0
+                },
+                {
+                    "solvia": 0,
+                    "fecha": "2017-06-06",
+                    "tecnocasa": 0,
+                    "servihabitat": "null"
+                },
+                {
+                    "solvia": 0,
+                    "fecha": "2017-06-07",
+                    "tecnocasa": 0,
+                    "servihabitat": "null"
+                },
+                {
+                    "fecha": "2017-06-08",
+                    "tecnocasa": 0,
+                    "servihabitat": 1
+                },
+                {
+                    "fecha": "2017-06-09",
+                    "tecnocasa": 0,
+                    "servihabitat": 1
+                },
+                {
+                    "fecha": "2017-06-10",
+                    "tecnocasa": 0,
+                    "servihabitat": 0
+                },
+                {
+                    "fecha": "2017-06-11",
+                    "tecnocasa": 0,
+                    "servihabitat": 0
+                },
+                {
+                    "fecha": "2017-06-12",
+                    "tecnocasa": 0,
+                    "servihabitat": 0
+                },
+                {
+                    "fecha": "2017-06-13",
+                    "tecnocasa": 2,
+                    "servihabitat": 1
+                },
+                {
+                    "fecha": "2017-06-14",
+                    "tecnocasa": 3,
+                    "servihabitat": 1
+                },
+                {
+                    "fecha": "2017-06-15",
+                    "tecnocasa": 0,
+                    "servihabitat": 0
+                },
+                {
+                    "fecha": "2017-06-16",
+                    "tecnocasa": 5,
+                    "servihabitat": 0
+                },
+                {
+                    "fecha": "2017-06-17",
+                    "tecnocasa": 0,
+                    "servihabitat": 0
+                },
+                {
+                    "fecha": "2017-06-18",
+                    "tecnocasa": 0,
+                    "servihabitat": "null"
+                },
+                {
+                    "fecha": "2017-06-19",
+                    "tecnocasa": 0,
+                    "servihabitat": 0
+                }
+            ]
+        },
+        {
+            "counter": "tiempoejecucion",
+            "data": [
+                {
+                    "solvia": 108.489,
+                    "fecha": "2017-05-31",
+                    "tecnocasa": 779.441,
+                    "servihabitat": 767.732
+                },
+                {
+                    "solvia": 110.864,
+                    "fecha": "2017-06-01",
+                    "tecnocasa": 680.687,
+                    "servihabitat": 752.519
+                },
+                {
+                    "solvia": 75.785,
+                    "fecha": "2017-06-02",
+                    "tecnocasa": 555.731,
+                    "servihabitat": 684.712
+                },
+                {
+                    "solvia": 75.0746,
+                    "fecha": "2017-06-03",
+                    "tecnocasa": 498.069,
+                    "servihabitat": 686.614
+                },
+                {
+                    "solvia": 75.7099,
+                    "fecha": "2017-06-04",
+                    "tecnocasa": 470.84,
+                    "servihabitat": 703.522
+                },
+                {
+                    "solvia": 73.9883,
+                    "fecha": "2017-06-05",
+                    "tecnocasa": 577.248,
+                    "servihabitat": 682.234
+                },
+                {
+                    "solvia": 75.6276,
+                    "fecha": "2017-06-06",
+                    "tecnocasa": 440.474,
+                    "servihabitat": "null"
+                },
+                {
+                    "solvia": 75.1355,
+                    "fecha": "2017-06-07",
+                    "tecnocasa": 469.365,
+                    "servihabitat": "null"
+                },
+                {
+                    "fecha": "2017-06-08",
+                    "tecnocasa": 400.388,
+                    "servihabitat": 706.985
+                },
+                {
+                    "fecha": "2017-06-09",
+                    "tecnocasa": 522.146,
+                    "servihabitat": 681.89
+                },
+                {
+                    "fecha": "2017-06-10",
+                    "tecnocasa": 575.571,
+                    "servihabitat": 682.548
+                },
+                {
+                    "fecha": "2017-06-11",
+                    "tecnocasa": 548.434,
+                    "servihabitat": 677.283
+                },
+                {
+                    "fecha": "2017-06-12",
+                    "tecnocasa": 421.862,
+                    "servihabitat": 662.857
+                },
+                {
+                    "fecha": "2017-06-13",
+                    "tecnocasa": 459.312,
+                    "servihabitat": 682.597
+                },
+                {
+                    "fecha": "2017-06-14",
+                    "tecnocasa": 428.75,
+                    "servihabitat": 689.209
+                },
+                {
+                    "fecha": "2017-06-15",
+                    "tecnocasa": 425.811,
+                    "servihabitat": 690.304
+                },
+                {
+                    "fecha": "2017-06-16",
+                    "tecnocasa": 504.136,
+                    "servihabitat": 686.323
+                },
+                {
+                    "fecha": "2017-06-17",
+                    "tecnocasa": 421.848,
+                    "servihabitat": 692.417
+                },
+                {
+                    "fecha": "2017-06-18",
+                    "tecnocasa": 474.287,
+                    "servihabitat": "null"
+                },
+                {
+                    "fecha": "2017-06-19",
+                    "tecnocasa": 433.719,
+                    "servihabitat": 731.217
+                }
+            ]
+        }
+    ]
+}

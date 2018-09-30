@@ -1,0 +1,28 @@
+<div class="wrapper">
+  <form class="form-signin" method="POST" role="form">
+    <h2 class="form-signin-heading">Confirmar registro</h2>
+    <div *ngIf="errorMessage!=null" class="alert alert-danger">
+      {{ errorMessage }}
+    </div>
+    <div class="form-group">
+      <div *ngIf="email===null">
+        <label class="sr-only" for="confirmationCode">Dirección de correo</label>
+        <input id="email" type="email" maxlength="100" class="form-control up-control" placeholder="Dirección de correo" required autofocus
+          [(ngModel)]="email" [ngModelOptions]="{standalone: true}">
+      </div>
+      <label class="sr-only" for="code">Código de verificación</label>
+      <input id="code" type="text" maxlength="10" class="form-control down-control" placeholder="Código de verificación" required
+        [(ngModel)]="code" [ngModelOptions]="{standalone: true}">
+    </div>
+    <button (click)="onConfirmRegistration()" class="btn btn-lg btn-personal btn-block" type="submit">Confirmar</button>
+    <hr>
+    <p>Olvidate el código?&nbsp;&nbsp;
+      <a [routerLink]="['/home/resendCode']"> <i class="fa fa-paper-plane" aria-hidden="true"></i> Reenviar código</a></p>
+    <div class="pull-left">
+      <a [routerLink]="['/home/register']"> <i class="fa fa-fw fa-pencil-square-o"></i> Registrarme</a>
+    </div>
+    <div class="pull-right">
+      <a [routerLink]="['/home/login']"> <i class="fa fa-fw fa-lock"></i> Login</a>
+    </div>
+  </form>
+</div> <!-- /wrapper -->

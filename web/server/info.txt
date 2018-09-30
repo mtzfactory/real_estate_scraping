@@ -1,0 +1,24 @@
+$ npm install ng2-charts --save
+$ npm install chart.js --save
+.angular-cli.json -> 
+	“scripts”: [
+          "../node_modules/chart.js/dist/Chart.min.js",
+          "../node_modules/chart.js/dist/Chart.bundle.min.js",
+	]
+
+$ cd web/server
+$ eb init
+$ eb create
+$ eb deploy
+$ eb open
+
+http://blog.shippable.com/how-to-deploy-to-elastic-beanstalk-part-1
+https://stackoverflow.com/questions/37550569/publishing-angular-2-app-deployment
+
+$ zip -r upload.zip . -x node_modules/\* *.git* *.idea* *.DS_Store* *.txt*
+https://github.com/awslabs/aws-cognito-angular2-quickstart/blob/master/aws/createResources.sh
+
+
+https://uigradients.com
+
+https://themeforest.net/item/realia-retina-responsive-real-estate-template/4594492?ref=benoic

@@ -1,0 +1,9 @@
+
+https://wiki.postgresql.org/wiki/Using_psycopg2_with_PostgreSQL
+
+http://blog.endpoint.com/2016/03/loading-json-files-into-postgresql-95.html
+https://www.postgresql.org/docs/9.3/static/functions-json.html
+
+https://github.com/lukasmartinelli/pgfutter
+
+http://boto3.readthedocs.io/en/latest/index.html

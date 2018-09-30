@@ -1,0 +1,17 @@
+https://sdk.amazonaws.com/builder/js/
+
+https://aws.amazon.com/es/blogs/mobile/using-webpack-with-the-amazon-cognito-identity-sdk-for-javascript/
+
+https://aws.amazon.com/es/blogs/mobile/accessing-your-user-pools-using-the-amazon-cognito-identity-sdk-for-javascript/
+
+http://docs.aws.amazon.com/cognito/latest/developerguide/tutorial-integrating-user-pools-javascript.html?shortFooter=true
+
+https://aws.amazon.com/es/blogs/compute/authorizing-access-through-a-proxy-resource-to-amazon-api-gateway-and-aws-lambda-using-amazon-cognito-user-pools/
+
+https://github.com/aws/amazon-cognito-identity-js/issues/13
+
++ Angular
+
+https://github.com/aws/amazon-cognito-identity-js
+
+https://github.com/goldenbearkin/angular-cognito-demo

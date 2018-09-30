@@ -1,0 +1,6 @@
+$ pip install virtualenv
+$ virtualenv venv
+($ virtualenv venv --system-site-packages)
+$ source venv/bin/activate
+$ pip install <package>
+$ deactivate

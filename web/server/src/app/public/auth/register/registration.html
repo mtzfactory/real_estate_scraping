@@ -1,0 +1,22 @@
+<div class="wrapper">
+  <form class="form-signin" method="POST" role="form">
+    <h2 class="form-signin-heading">Crear una cuenta</h2>
+    <div *ngIf="errorMessage!=null" class="alert alert-danger">
+        {{ errorMessage }}
+    </div>
+    <label for="name" class="sr-only">Nombre</label>
+    <input id="name" type="text" maxlength="50" class="form-control up-control" placeholder="Nombre" required autofocus
+      [(ngModel)]="registrationUser.name" [ngModelOptions]="{standalone: true}">
+    <label for="email" class="sr-only">Dirección de correo</label>
+    <input id="email" type="email" maxlength="50" class="form-control middle-control" placeholder="Dirección de correo" required
+      [(ngModel)]="registrationUser.email" [ngModelOptions]="{standalone: true}">
+    <label for="password" class="sr-only">Contraseña</label>
+    <input id="password" type="password" maxlength="25" class="form-control down-control" placeholder="Contraseña" required
+      [(ngModel)]="registrationUser.password" [ngModelOptions]="{standalone: true}">
+    <button (click)="onRegister()" class="btn btn-lg btn-personal btn-block" type="submit">Crear la cuenta</button>
+    <hr>
+    <div class="pull-right">
+      <p>Ya tienes una cuenta? <a [routerLink]="['/home/login']"> <i class="fa fa-fw fa-lock"></i>Login</a></p>
+    </div>
+  </form>
+</div> <!-- /wrapper -->
