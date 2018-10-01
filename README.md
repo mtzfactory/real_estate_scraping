@@ -1,15 +1,15 @@
 
 # REAL ESTATE SCRAPING
 
-This web app was the last one I made _before joining the bootcamp_, back in 2017. At that time I had already done two more apps in __Angular__, so I decided to make this one to build knowledge.
+This web app was the last one I made _before joining the programming bootcamp_, back in 2017. At that time I had already done two more apps in __Angular__, so I decided to make this third one to build up knowledge.
 
-This was a personal project to build a real state __scraping__ app, gathering data from different real estate web pages, storing the information for a further analysis.
+This was a personal project to build a real estate __scraping__ app, which gathered data from different real estate web pages and stored information for further analysis later on.
 
 The backend was run in __Amazon AWS__:
 
-· _Amazon EC2_ instance, where the worker scripts, made in __python__, were executed, scheduled by a cron service, to scrape the real estate web pages.
+· The worker scripts written in _Python_ were executed in an _Amazon EC2_ instance and scheduled by a cron service to scrape the real estate web pages.
 
-· _AWS Lambda_ was used to host the Api, developed in __python__ as well.
+· _AWS Lambda_ was used to host the Api, which was also written in __python__.
 
 · _PostgreSql_ database was used to store all the data scraped from the web pages.
 
@@ -33,5 +33,5 @@ Run `ng build` to build the project. The build artifacts will be stored in the `
 
 ## Screens
 
-· Main view: dashboard reporting stadistics of last web  scraping.
+· Dashboard reporting statistics of last web scraping.
 [![m](images/m3.jpg)](images/m3_original.png)
